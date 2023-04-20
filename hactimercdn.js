@@ -1,0 +1,1 @@
+https://unpkg.com/hacktimer@1.1.3/HackTimer.js
