@@ -1,0 +1,10 @@
+//for games like all5 straight(combo)
+function countWins(array $userSelections, array $drawNumbers): int
+{
+    $totalWins = 0;
+    $totalDrawNumbers = count($drawNumbers);
+    for ($i = 0; $i < $totalDrawNumbers; $i++) {
+        !in_array($drawNumbers[$i], $userSelections[$i]) ?: $totalWins++;
+    }
+    return $totalWins;
+}
