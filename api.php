@@ -1,0 +1,1 @@
+ http://192.168.199.126/task/apis/betrecords.php?prevSeek=2529&gameType=1& limit=10&page=1
